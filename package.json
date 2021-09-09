@@ -1,0 +1,8 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dgsw-baro/baro-frontend.git",
+  "author": "정성훈 <52942411+jsh0128@users.noreply.github.com>",
+  "license": "MIT"
+}
