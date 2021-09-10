@@ -1,13 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router";
 
-const Component: React.FC = () => {
-  return <div>App Component</div>;
-};
+import * as Pages from "../pages";
 
 const App: React.FC = () => (
   <Switch>
-    <Route exact path="/" component={Component} />
+    <Route exact path="/" component={Pages.Main} />
   </Switch>
 );
 
